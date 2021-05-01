@@ -1,0 +1,12 @@
+source-root-url: "https://www.debijenkorf.nl/INTERSHOP/static/WFS/dbk-shop-Site/-/dbk-shop/nl_NL/product-images/"
+
+aws:
+  aws-s3-endpoint: ${AWS_S3_ENDPOINT}
+  aws-accesskey: ${AWS_ACCESSKEY}
+  aws-secretkey: ${AWS_SECRETKEY}
+
+logdb:
+  logdb-endpoint: ${LOGDB_ENDPOINT}
+  logdb-name: ${LOGDB_NAME}
+  logdb-username: ${LOGDB_USERNAME}
+  logdb-password: ${LOGDB_PASSWORD}
